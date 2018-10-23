@@ -8,8 +8,8 @@ It was built to run on [glitch.com](glitch.com).
 It makes use of the [data.winnipeg.ca apis](https://data.winnipeg.ca/City-Planning/Plow-Zone-Schedule/tix9-r5tc).
 
 ## Some endpoints
-- https://snow-zone.glitch.me/
-- https://snow-zone.glitch.me/zone/h
+- https://know-your-zone.glitch.me/
+- https://know-your-zone.glitch.me/zone/H
 
 ### A note about utterances
 To generate utterances in bulk, you can use an [utterance expander tool like this](https://lab.miguelmota.com/intent-utterance-expander/example/)
