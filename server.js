@@ -72,7 +72,7 @@ alexaApp.intent("AMAZON.HelpIntent", {
     "utterances": []
   },
   function(request, response) {
-    var helpOutput = "You can ask for parking ban information like this: <break time='.2s'/> Alexa, ask know your zone for parking info for zone H'. <break time='.2s'/> Visit winnipeg.ca/snow to discover which zone you are in. <break time='.2s'/> What zone would you like information for?";
+    var helpOutput = "You can ask for parking ban information like this: <break time='.2s'/> Alexa, ask snow zone if there is a parking ban for zone H'. <break time='.2s'/> Visit winnipeg.ca/snow to discover which zone you are in. <break time='.2s'/> What zone would you like information for?";
     var reprompt = "Which parking zone would you like information for?";
     response.say(helpOutput).reprompt(reprompt).shouldEndSession(false);
   }
