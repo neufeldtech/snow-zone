@@ -64,8 +64,27 @@ alexaApp.intent("GetZoneInfoIntent", {
 );
 
 alexaApp.error = function(exception, request, response) {
+  console.log(exception)
   response.say("Sorry, an error occurred");
 };
+
+alexaApp.intent("AMAZON.StopIntent", {
+    "slots": {},
+    "utterances": []
+  }, function(request, response) {
+    var stopOutput = "Goodbye!";
+    response.say(stopOutput);
+  }
+);
+
+alexaApp.intent("AMAZON.CancelIntent", {
+    "slots": {},
+    "utterances": []
+  }, function(request, response) {
+    var cancelOutput = "No problem. Request cancelled.";
+    response.say(cancelOutput);
+  }
+);
 
 alexaApp.intent("AMAZON.HelpIntent", {
     "slots": {},
